@@ -1,0 +1,10 @@
+@import '../../../variables.scss';
+
+.navbar .nav-link {
+  color: $links-color !important; // Color normal
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: darken($links-color, 10%) !important; // Hover más oscuro
+}
